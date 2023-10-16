@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding-bottom: 500px;
+    background-color: #F7F3F5;
+}
+button{
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+}
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    color: #34252F;
+}
+h1{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 50px;
+    color: black;
+}
+main{
+    margin-top: 150px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 200px;
+}
+.info-aboutme{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 200px;
+}
+.content{
+    width: 50%;
+    line-height: 35px;
+}
+.content p{
+    color: #34252F;
+    font-size: 24px;
+    line-height: 35px;
+}
+.content h1{
+    font-size: 50px;
+}
+.bat-div{
+    text-align: right;
+}
+.batman-logo{
+    width: 300px
+}
+.skills-section{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    align-items: center;
+    padding: 0px 200px;
+}
+.skills-section hr{
+    background-color: #34252F;
+}
+.skills-head h1{
+    margin: 0;
+    margin-bottom: 20px;
+}
+.tech-div{
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+.tech-div-layout{
+    display: flex;
+}
+.tech1{
+    display: flex;
+    font-size: 20px;
+    padding: 30px;
+    width: 50%;
+    align-items: center;
+    flex-direction: column;
+}
+.tech1-info{
+    line-height: 35px;
+    letter-spacing: 1px;
+    color: #34252F;
+    font-size: 22px;
+}
+.tech-logo{
+    width: 150px;
+}
+.project-section{
+    background-color: #34252F;
+    padding: 50px 100px;
+    display: flex;
+    gap: 80px;
+    flex-direction: column;
+    align-items: center;
+}
+.project-opening{
+    display: inline-block;
+}
+.project-opening h1{
+    color: #F7F3F5;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.project-logo{
+    width: 50px;
+}
+.projects{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+.projects img:not(.project-logo){
+    width: 50px;
+}
+.projects-1{
+    background-color: #F7F3F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+    gap: 20px;
+    border-radius: 10px;
+}
+.projects-1 h2{
+    margin: 0;
+}
+.projects-1 p{
+    color: #34252F;
+}
+.project-button{
+    padding: 12px 25px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    color: #F7F3F5;
+    background-color: #34252F;
+}
+@media (min-width: 360px) and (max-width: 500px){
+    .info-aboutme{
+        padding: 0px 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .content{
+        width: 100%;
+    }
+    .content p{
+        width: 100%;
+    }
+    .bat-div{
+        width: 100%;
+    }
+}

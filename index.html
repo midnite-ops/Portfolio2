@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <ul>
+                <li  id="name">Oyims Jesse</li>
+                <div class="li-div">
+                    <li>About me</li>
+                    <li>Projects</li>
+                    <li>Services</li>
+                </div>
+            </ul>
+        </nav>
+
+        <section class="about">
+            <div class="about-info">
+               <h1>Hey, i'm Jesse.</h1> 
+               <p>
+                    A web developer and software engineer from Ebonyi State in Nigeria, i create amazing websites and help people go futher on the internet.
+               </p>
+               <button class="contact-button">Contact me</button>
+            </div>
+            <div class="about-profile">
+                <img class="profile" src="images/profile-pic.jpeg">
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="info-aboutme">
+            <div class="content">
+                <h1>
+                    About me
+                </h1>
+                <p>
+                    Hello, i am a software engineer and web developer from Nigeria. I am dedicated to the quest of developing solutions that leverage on best pratice technologies to deliver over the top user experience.<br>
+                    I am a student of <b>FUNAi</b> (federal university ndufu alike ikwo), currently studying computer science.
+                </p>
+            </div>
+            <div class="bat-div">
+                <img class="batman-logo" src="images/tools/batman.png">
+            </div>
+        </section>
+
+        <section class="skills-section">
+            <div class="skills-head">
+                <h1>My Skills</h1>
+                <hr>
+            </div>
+            <div class="tech-div">
+                <div class="tech-div-layout">
+                    <div class="tech1">
+                        <img class="tech-logo" src="images/logos/css-logo.png">
+                        <h2>CSS</h2>
+                        <p class="tech1-info">
+                            Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="tech1">
+                        <img class="tech-logo" src="images/logos/html-logo.png">
+                        <h2>HTML</h2>
+                        <p class="tech1-info">
+                            HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Used a style attribute to make the width of the hr tag to be 100% since there are multiple hr tags on the web page-->
+                <hr style="width: 100%;">
+                
+                <div class="tech-div-layout">
+                    <div class="tech1">
+                        <img class="tech-logo" src="images/logos/4373213_js_logo_logos_icon.png">
+                        <h2>JAVASCRIPT</h2>
+                        <p class="tech1-info">
+                            JavaScript (JS) is a lightweight interpreted (or just-in-time compiled) programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles.
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="tech1"> 
+                        <img class="tech-logo" src="images/logos/react.png">
+                        <h2>REACT</h2>
+                        <p class="tech1-info">
+                            React can be used to build web, mobile, and desktop applications, making it a versatile framework for cross-platform development. React Native, a framework based on React, is specifically designed for mobile app development, while React Desktop allows you to create desktop applications using web technologies
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="project-section">
+            <div class="project-opening">
+                <h1>My Projects</h1>
+                <hr>
+            </div>
+           <div class="projects">
+                <div class="projects-1">
+                    <h2>Calculator app</h2>
+                    <img class="project-logo" src="images/logos/calculator.png" alt="calculator icon">
+                    <p>JavaScript, HTML and CSS</p>
+                    <button class="project-button">View Project</button>
+                </div>
+                <div class="projects-1">
+                    <h2>Rock, Paper, Scissors</h2>
+                    <img src="images/logos/rock2.png" alt="Rock, Paper, Scissors icon">
+                    <p>JavaScript, HTML and CSS</p>
+                    <a href="https://midnite-ops.github.io/Rock-Paper-Scissors/" target="_blank">
+                        <button class="project-button">View Project</button>
+                    </a>
+                </div>
+           </div>
+        </section>
+    </main>
+</body>
+</html>
